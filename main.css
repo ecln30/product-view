@@ -103,11 +103,13 @@ button {
     font-size: 1rem;
     background: hsl(158, 63%, 12%);
     cursor: pointer;
+    font-weight: bold;
     transform: width 2s height 2s ;
 }
 
 button:hover{
-    background:hsl(199, 41%, 41%)
+    background:hsl(199, 41%, 41%);
+    
 }
 
 button:active {
@@ -177,6 +179,7 @@ button:active {
 
     button {
          background: hsl(158, 36%, 37%);
+         font-weight: bold
     }
 
     .icon {
